@@ -1,0 +1,17 @@
+
+sourcetype = WinEventLog:Security
+
+[WinEventLog:System]
+disabled = 0
+index = vpn3
+
+[WinEventLog://Microsoft-Windows-DriverFrameworks-UserMode/Operational]
+disabled = 0
+
+[WinEventLog://Microsoft-Windows-PowerShell/Operational]
+disabled = 0
+renderXml=1
+
+[WinEventLog://Microsoft-Windows-DNS-Client/Operational]
+disabled=0
+index=vpn3
